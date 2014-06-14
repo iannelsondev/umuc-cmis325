@@ -1,0 +1,60 @@
+ford2:
+total 16K
+10094887 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [0m[01;34m.[0m/
+ 8915773 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:20 [01;34m..[0m/
+10094902 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [01;34mcars[0m/
+10094894 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [01;34mtrucks[0m/
+
+ford2/cars:
+total 16K
+10094902 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [01;34m.[0m/
+10094887 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [01;34m..[0m/
+10094903 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:04 [01;34mconsumer[0m/
+10094907 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:04 [01;34mperformance[0m/
+
+ford2/cars/consumer:
+total 8.0K
+10094903 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:04 [01;34m.[0m/
+10094902 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [01;34m..[0m/
+10094905 -rw-r--r--. 1 inelson inelson    0 Jun 11 20:04 fusion
+10094904 -rw-r--r--. 1 inelson inelson    0 Jun 11 20:04 mustang
+10094906 -rw-r--r--. 1 inelson inelson    0 Jun 11 20:04 mustang_gt
+
+ford2/cars/performance:
+total 8.0K
+10094907 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:04 [01;34m.[0m/
+10094902 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [01;34m..[0m/
+10094910 -rw-r--r--. 1 inelson inelson    0 Jun 11 20:04 gt
+10094908 -rw-r--r--. 1 inelson inelson    0 Jun 11 20:04 gt_500
+10094909 lrwxrwxrwx. 1 inelson inelson   29 Jun 11 20:04 [01;36mmustang_gt[0m -> ford/cars/consumer/mustang_gt
+
+ford2/trucks:
+total 16K
+10094894 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [01;34m.[0m/
+10094887 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [01;34m..[0m/
+10094899 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:04 [01;34mconsumer[0m/
+10094895 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:07 [01;34menterprise[0m/
+
+ford2/trucks/consumer:
+total 12K
+10094899 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:04 [01;34m.[0m/
+10094894 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [01;34m..[0m/
+10094900 -rwxrwxrwx. 1 inelson inelson    1 Jun 11 20:04 [01;32mf150[0m*
+10094901 -rw-r--r--. 1 inelson inelson    0 Jun 11 20:04 f250
+
+ford2/trucks/enterprise:
+total 12K
+10094895 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:07 [01;34m.[0m/
+10094894 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:04 [01;34m..[0m/
+10094896 -rw-r--r--. 1 inelson inelson    0 Jun 11 20:04 e_series_wagon
+10094898 -rw-r--r--. 1 inelson inelson   31 Jun 11 20:04 f450
+10094897 -rw-r--r--. 1 inelson inelson    0 Jun 11 20:04 fsd
+
+######   #     #  ######         ######   ###  ######   #######   #####   #######  #######  ######   #     #  
+#     #  #     #  #     #        #     #   #   #     #  #        #     #     #     #     #  #     #   #   #   
+#     #  #     #  #     #        #     #   #   #     #  #        #           #     #     #  #     #    # #    
+#     #  #     #  ######         #     #   #   ######   #####    #           #     #     #  ######      #     
+#     #  #     #  #              #     #   #   #   #    #        #           #     #     #  #   #       #     
+#     #  #     #  #              #     #   #   #    #   #        #     #     #     #     #  #    #      #     
+######    #####   #              ######   ###  #     #  #######   #####      #     #######  #     #     #     
+

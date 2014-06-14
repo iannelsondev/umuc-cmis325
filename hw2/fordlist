@@ -1,0 +1,76 @@
+ford:
+total 20K
+8915774 drwxr-xr-x. 5 inelson inelson 4.0K Jun 11 19:47 [0m[01;34m.[0m/
+8915773 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 20:14 [01;34m..[0m/
+9047362 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 19:47 [01;34mcars[0m/
+9047363 drwxr-xr-x. 3 inelson inelson 4.0K Jun 11 19:48 [01;34msuv[0m/
+8915775 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 19:47 [01;34mtrucks[0m/
+
+ford/cars:
+total 16K
+9047362 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 19:47 [01;34m.[0m/
+8915774 drwxr-xr-x. 5 inelson inelson 4.0K Jun 11 19:47 [01;34m..[0m/
+9176019 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 19:56 [01;34mconsumer[0m/
+9176020 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 19:59 [01;34mperformance[0m/
+
+ford/cars/consumer:
+total 8.0K
+9176019 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 19:56 [01;34m.[0m/
+9047362 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 19:47 [01;34m..[0m/
+9176022 -rw-r--r--. 1 inelson inelson    0 Jun 11 19:56 fusion
+9176023 -rw-r--r--. 1 inelson inelson    0 Jun 11 19:56 mustang
+9176024 -rw-r--r--. 1 inelson inelson    0 Jun 11 19:56 mustang_gt
+
+ford/cars/performance:
+total 8.0K
+9176020 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 19:59 [01;34m.[0m/
+9047362 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 19:47 [01;34m..[0m/
+9176027 -rw-r--r--. 1 inelson inelson    0 Jun 11 19:59 gt
+9176026 -rw-r--r--. 1 inelson inelson    0 Jun 11 19:56 gt_500
+9176025 lrwxrwxrwx. 1 inelson inelson   29 Jun 11 19:56 [01;36mmustang_gt[0m -> ford/cars/consumer/mustang_gt
+
+ford/suv:
+total 12K
+9047363 drwxr-xr-x. 3 inelson inelson 4.0K Jun 11 19:48 [01;34m.[0m/
+8915774 drwxr-xr-x. 5 inelson inelson 4.0K Jun 11 19:47 [01;34m..[0m/
+9309743 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:00 [01;34mconsumer[0m/
+
+ford/suv/consumer:
+total 8.0K
+9309743 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:00 [01;34m.[0m/
+9047363 drwxr-xr-x. 3 inelson inelson 4.0K Jun 11 19:48 [01;34m..[0m/
+9309745 -rw-r--r--. 1 inelson inelson    0 Jun 11 19:57 edge
+9309746 -rw-r--r--. 1 inelson inelson    0 Jun 11 19:57 escape
+9309747 lrwxrwxrwx. 1 inelson inelson   37 Jun 11 20:00 [01;36me_series_wagon[0m -> ford/trucks/enterprise/e_series_wagon
+9309744 -rw-r--r--. 1 inelson inelson    0 Jun 11 19:57 expedition
+
+ford/trucks:
+total 16K
+8915775 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 19:47 [01;34m.[0m/
+8915774 drwxr-xr-x. 5 inelson inelson 4.0K Jun 11 19:47 [01;34m..[0m/
+9047364 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 19:51 [01;34mconsumer[0m/
+9176018 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:00 [01;34menterprise[0m/
+
+ford/trucks/consumer:
+total 12K
+9047364 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 19:51 [01;34m.[0m/
+8915775 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 19:47 [01;34m..[0m/
+9047365 -rw-r--r--. 1 inelson inelson    1 Jun 11 19:51 f150
+9047366 -rw-r--r--. 1 inelson inelson    0 Jun 11 19:51 f250
+
+ford/trucks/enterprise:
+total 12K
+9176018 drwxr-xr-x. 2 inelson inelson 4.0K Jun 11 20:00 [01;34m.[0m/
+8915775 drwxr-xr-x. 4 inelson inelson 4.0K Jun 11 19:47 [01;34m..[0m/
+9176028 -rw-r--r--. 1 inelson inelson    0 Jun 11 20:00 e_series_wagon
+9176021 -rw-r--r--. 1 inelson inelson   31 Jun 11 19:53 f450
+9176029 -rw-r--r--. 1 inelson inelson    0 Jun 11 20:00 super_duty
+
+#######  ###  ######    #####   #######        ######   ###  ######   #######   #####   #######  #######  ######   #     #  
+#         #   #     #  #     #     #           #     #   #   #     #  #        #     #     #     #     #  #     #   #   #   
+#         #   #     #  #           #           #     #   #   #     #  #        #           #     #     #  #     #    # #    
+#####     #   ######    #####      #           #     #   #   ######   #####    #           #     #     #  ######      #     
+#         #   #   #          #     #           #     #   #   #   #    #        #           #     #     #  #   #       #     
+#         #   #    #   #     #     #           #     #   #   #    #   #        #     #     #     #     #  #    #      #     
+#        ###  #     #   #####      #           ######   ###  #     #  #######   #####      #     #######  #     #     #     
+
