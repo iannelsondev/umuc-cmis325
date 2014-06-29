@@ -1,0 +1,7 @@
+This is a line that tests * and sees if $2.00 goes far
+This is line two.
+This is line 3
+This is line four
+this is line five$
+this is line six*
+^ stands for the beginning of a line
