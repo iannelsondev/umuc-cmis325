@@ -1,0 +1,12 @@
+##
+# Sample User Database
+# 
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+cm315:*:5:5:Student User 1:/var/cm315:/usr/bin/false
+cm325:*:5:5:Student User 2:/var/cm325:/usr/bin/false
