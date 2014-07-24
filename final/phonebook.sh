@@ -113,6 +113,7 @@ add () {
         echo ""
         echo "Entry already exists"
         echo ""
+        return
     fi
 
     ## Push the entry into the file. Do not add the CRLF
@@ -126,6 +127,17 @@ add () {
 
 ## Delete a phonebook entry
 delete () {
+    ## Authenticate against /etc/passwd
+    authenticate
+
+    ## Let user know
+    if [[ $authenticated == 1 ]]; then
+        echo "User $(logname) is authenticated"; echo ""
+    else
+        echo "Unable to delete, not in /etc/passwd"; echo ""
+        return -1
+    fi
+
     ## Spacer.
     echo ""
 
@@ -162,6 +174,17 @@ delete () {
 
 ## Modify a phonebook entry
 modify () {
+    ## Authenticate against /etc/passwd
+    authenticate
+
+    ## Let user know
+    if [[ $authenticated == 1 ]]; then
+        echo "User $(logname) is authenticated"; echo ""
+    else
+        echo "Unable to modify, not in /etc/passwd"; echo ""
+        return -1
+    fi
+
     ## If the first name exists...
     if [[ -n "$firstname" ]]; then
         ## Define the pattern with it.
